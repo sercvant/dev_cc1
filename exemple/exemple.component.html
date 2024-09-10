@@ -1,0 +1,10 @@
+<h2>{{exemple.title}}</h2>
+<img [src]="exemple.imageUrl" [alt]="exemple.title">
+<p>{{exemple.description}}</p>
+<p>Mis en ligne le {{exemple.createdAt}}</p>
+<p>Nombre de j'aime: {{exemple.likes}}</p>
+
+<p>
+    <button (click)="onaddlike()">Nombre de j'aime</button>
+    {{exemple.likes}}
+</p>
